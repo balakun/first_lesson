@@ -12,6 +12,7 @@
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
+
 body {
   font-family: var(--main-font);
   color: var(--text);
@@ -19,6 +20,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
+
 h1,
 h2,
 h3,
@@ -47,11 +49,13 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+
 .list {
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
+
 .link {
   text-decoration: none;
 }
@@ -84,16 +88,24 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 /*=================== header ========  */
-.header {
+.header {}
+
+.header .container {
+  display: flex;
 }
-.header-logo {
-}
+
+.header-logo {}
+
 .header-nav {
+  margin-left: auto;
 }
+
 .header-list {
+  display: flex;
 }
-.header-item {
-}
-.header-link {
-}
+
+.header-item {}
+
+.header-link {}
